@@ -1,0 +1,2132 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "d197d5f6-a25e-4586-0214-84df4d5f0078": {
+            "id": "d197d5f6-a25e-4586-0214-84df4d5f0078",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [750.2, 87.4],
+            "size": [89.6, 55.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "User",
+            "labelPoint": [0.5, 0.5]
+          },
+          "64f19fac-a502-46a2-0064-2dd23e9bbd72": {
+            "id": "64f19fac-a502-46a2-0064-2dd23e9bbd72",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [256.2, 78.2],
+            "size": [596.8, 706],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "8ab6e24a-22e9-4560-09a8-bc8fcde0410e": {
+            "id": "8ab6e24a-22e9-4560-09a8-bc8fcde0410e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [263.8, 86.4],
+            "size": [89.6, 55.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "DBC",
+            "labelPoint": [0.5, 0.5]
+          },
+          "0d8cb58b-6fdf-4f27-37d8-7cf992a638f9": {
+            "id": "0d8cb58b-6fdf-4f27-37d8-7cf992a638f9",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [362.2, 87.2],
+            "size": [382.2, 52.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Welcome to DBC News! ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "e6f790f2-4f49-4207-2d08-04e928ff8a3f": {
+            "id": "e6f790f2-4f49-4207-2d08-04e928ff8a3f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [868.6, 95.4],
+            "rotation": 0,
+            "text": "Header component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e20934f2-0785-42b7-1020-eca57c8d975f": {
+            "id": "e20934f2-0785-42b7-1020-eca57c8d975f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [884.5, 149.6],
+            "rotation": 0,
+            "text": "Nav component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "531c80c5-5a68-4894-2bcd-62082d5e28f1": {
+            "id": "531c80c5-5a68-4894-2bcd-62082d5e28f1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [269, 149.4],
+            "size": [574.4, 50.8],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "4c5dc0ab-9685-4a24-24e9-5b303ede2785": {
+            "id": "4c5dc0ab-9685-4a24-24e9-5b303ede2785",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [326.15, 153.46],
+            "rotation": 0,
+            "text": "Home",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "4ed2a874-3761-42e9-238c-fa04e643bbae": {
+            "id": "4ed2a874-3761-42e9-238c-fa04e643bbae",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [517.59, 154.11],
+            "rotation": 0,
+            "text": "Users",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "05c858c1-e2b9-407d-0837-9ce14fb45f13": {
+            "id": "05c858c1-e2b9-407d-0837-9ce14fb45f13",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [688.56, 155.02],
+            "rotation": 0,
+            "text": "Search",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ecc899b7-2ab8-4299-06af-3532337477e3": {
+            "id": "ecc899b7-2ab8-4299-06af-3532337477e3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 12,
+            "point": [872.5, 433],
+            "rotation": 0,
+            "text": "/ route showing all articles ordered by date by default",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7e99c327-6a07-4f4b-04ce-6f85391ce0e0": {
+            "id": "7e99c327-6a07-4f4b-04ce-6f85391ce0e0",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "page",
+            "childIndex": 25,
+            "point": [448.08, 153.18],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [0.82, 0, 0.5],
+              [0.82, 0, 0.5],
+              [0.66, 0.82, 0.5],
+              [0.66, 5.39, 0.5],
+              [1.96, 13.22, 0.5],
+              [3.27, 17.8, 0.5],
+              [3.27, 19.76, 0.5],
+              [3.92, 21.06, 0.5],
+              [4.58, 23.02, 0.5],
+              [4.58, 23.67, 0.5],
+              [4.58, 24.98, 0.5],
+              [4.58, 26.29, 0.5],
+              [4.58, 26.94, 0.5],
+              [4.58, 28.9, 0.5],
+              [4.58, 29.55, 0.5],
+              [4.58, 30.2, 0.5],
+              [3.92, 31.51, 0.5],
+              [3.27, 32.16, 0.5],
+              [2.62, 33.47, 0.5],
+              [2.62, 34.12, 0.5],
+              [1.96, 34.12, 0.5],
+              [1.31, 36.08, 0.5],
+              [1.31, 36.73, 0.5],
+              [0.66, 38.04, 0.5],
+              [0.66, 39.35, 0.5],
+              [0.66, 41.31, 0.5],
+              [0.66, 43.27, 0.5],
+              [0.66, 43.92, 0.5],
+              [0, 43.92, 0.5]
+            ],
+            "isComplete": true
+          },
+          "029de047-d340-4355-019f-d4ec6a577166": {
+            "id": "029de047-d340-4355-019f-d4ec6a577166",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "page",
+            "childIndex": 26,
+            "point": [636.17, 152.53],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [0.82, 0, 0.5],
+              [0.82, 0, 0.5],
+              [0.66, 0.82, 0.5],
+              [1.31, 4.08, 0.5],
+              [1.31, 6.69, 0.5],
+              [1.96, 10.61, 0.5],
+              [3.27, 15.18, 0.5],
+              [3.27, 17.8, 0.5],
+              [3.27, 19.76, 0.5],
+              [3.92, 21.06, 0.5],
+              [3.92, 23.67, 0.5],
+              [3.92, 26.29, 0.5],
+              [3.92, 28.24, 0.5],
+              [3.92, 29.55, 0.5],
+              [3.92, 30.86, 0.5],
+              [3.27, 32.82, 0.5],
+              [2.62, 34.78, 0.5],
+              [1.96, 36.08, 0.5],
+              [1.31, 36.73, 0.5],
+              [0.66, 38.04, 0.5],
+              [0.66, 39.35, 0.5],
+              [0.66, 40, 0.5],
+              [0, 40.65, 0.5],
+              [0, 41.96, 0.5],
+              [0, 42.61, 0.5],
+              [0, 43.27, 0.5],
+              [0, 43.92, 0.5],
+              [0, 45.88, 0.5],
+              [0, 46.53, 0.5]
+            ],
+            "isComplete": true
+          },
+          "b2b89c8d-c3c1-42a6-3b0e-c95c6891739d": {
+            "id": "b2b89c8d-c3c1-42a6-3b0e-c95c6891739d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 27,
+            "point": [748.99, 974.62],
+            "size": [89.6, 55.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "User",
+            "labelPoint": [0.5, 0.5]
+          },
+          "a6eb0b6f-b320-4167-392a-9726ec4de251": {
+            "id": "a6eb0b6f-b320-4167-392a-9726ec4de251",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 28,
+            "point": [254.99, 965.42],
+            "size": [596.8, 706],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "5d74cda8-bf2a-4a76-31f0-a6a5f3eeecd6": {
+            "id": "5d74cda8-bf2a-4a76-31f0-a6a5f3eeecd6",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 29,
+            "point": [262.59, 973.62],
+            "size": [89.6, 55.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "DBC",
+            "labelPoint": [0.5, 0.5]
+          },
+          "530d99a9-caea-43cb-1e45-c887a97be207": {
+            "id": "530d99a9-caea-43cb-1e45-c887a97be207",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 30,
+            "point": [360.99, 974.42],
+            "size": [382.2, 52.6],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Welcome to DBC News! ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "eabc3de0-3ca7-48df-0abc-eadff4760e2c": {
+            "id": "eabc3de0-3ca7-48df-0abc-eadff4760e2c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 31,
+            "point": [867.39, 982.62],
+            "rotation": 0,
+            "text": "Header component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b6288af5-9713-4cc2-1690-145ea91b3072": {
+            "id": "b6288af5-9713-4cc2-1690-145ea91b3072",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 32,
+            "point": [883.29, 1036.82],
+            "rotation": 0,
+            "text": "Nav component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7f814d5f-4b5c-44f6-1cbd-b0786c32dab7": {
+            "id": "7f814d5f-4b5c-44f6-1cbd-b0786c32dab7",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 33,
+            "point": [267.79, 1036.62],
+            "size": [574.4, 50.8],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "4d68b7a1-80e5-4e28-1e25-db6f3ae40da0": {
+            "id": "4d68b7a1-80e5-4e28-1e25-db6f3ae40da0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 34,
+            "point": [324.94, 1040.68],
+            "rotation": 0,
+            "text": "Home",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1fda6d32-6a8c-4ac6-1443-c7f77b8b25e7": {
+            "id": "1fda6d32-6a8c-4ac6-1443-c7f77b8b25e7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 35,
+            "point": [516.38, 1041.33],
+            "rotation": 0,
+            "text": "Users",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ae28cb8d-c0f2-4c7f-3fc1-09c56c4db564": {
+            "id": "ae28cb8d-c0f2-4c7f-3fc1-09c56c4db564",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 36,
+            "point": [687.35, 1042.24],
+            "rotation": 0,
+            "text": "Search",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7da52a82-90ca-4b6d-12c9-0ee6edc2cbce": {
+            "id": "7da52a82-90ca-4b6d-12c9-0ee6edc2cbce",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 37,
+            "point": [278.19, 1121.42],
+            "size": [548.8, 535.57],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "1504ecc9-eeb6-4046-21d1-9646a4addc9b": {
+            "id": "1504ecc9-eeb6-4046-21d1-9646a4addc9b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 38,
+            "point": [874.7, 1285.77],
+            "rotation": 0,
+            "text": "/article/:article_id route showing single article",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "84f1593d-7bea-4746-370e-c6dfcf1d1600": {
+            "id": "84f1593d-7bea-4746-370e-c6dfcf1d1600",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "page",
+            "childIndex": 39,
+            "point": [446.87, 1040.4],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [0.82, 0, 0.5],
+              [0.82, 0, 0.5],
+              [0.66, 0.82, 0.5],
+              [0.66, 5.39, 0.5],
+              [1.96, 13.22, 0.5],
+              [3.27, 17.8, 0.5],
+              [3.27, 19.76, 0.5],
+              [3.92, 21.06, 0.5],
+              [4.58, 23.02, 0.5],
+              [4.58, 23.67, 0.5],
+              [4.58, 24.98, 0.5],
+              [4.58, 26.29, 0.5],
+              [4.58, 26.94, 0.5],
+              [4.58, 28.9, 0.5],
+              [4.58, 29.55, 0.5],
+              [4.58, 30.2, 0.5],
+              [3.92, 31.51, 0.5],
+              [3.27, 32.16, 0.5],
+              [2.62, 33.47, 0.5],
+              [2.62, 34.12, 0.5],
+              [1.96, 34.12, 0.5],
+              [1.31, 36.08, 0.5],
+              [1.31, 36.73, 0.5],
+              [0.66, 38.04, 0.5],
+              [0.66, 39.35, 0.5],
+              [0.66, 41.31, 0.5],
+              [0.66, 43.27, 0.5],
+              [0.66, 43.92, 0.5],
+              [0, 43.92, 0.5]
+            ],
+            "isComplete": true
+          },
+          "de62849f-bacc-47a0-1184-e3dd75d23690": {
+            "id": "de62849f-bacc-47a0-1184-e3dd75d23690",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "page",
+            "childIndex": 40,
+            "point": [634.96, 1039.75],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "points": [
+              [0.82, 0, 0.5],
+              [0.82, 0, 0.5],
+              [0.66, 0.82, 0.5],
+              [1.31, 4.08, 0.5],
+              [1.31, 6.69, 0.5],
+              [1.96, 10.61, 0.5],
+              [3.27, 15.18, 0.5],
+              [3.27, 17.8, 0.5],
+              [3.27, 19.76, 0.5],
+              [3.92, 21.06, 0.5],
+              [3.92, 23.67, 0.5],
+              [3.92, 26.29, 0.5],
+              [3.92, 28.24, 0.5],
+              [3.92, 29.55, 0.5],
+              [3.92, 30.86, 0.5],
+              [3.27, 32.82, 0.5],
+              [2.62, 34.78, 0.5],
+              [1.96, 36.08, 0.5],
+              [1.31, 36.73, 0.5],
+              [0.66, 38.04, 0.5],
+              [0.66, 39.35, 0.5],
+              [0.66, 40, 0.5],
+              [0, 40.65, 0.5],
+              [0, 41.96, 0.5],
+              [0, 42.61, 0.5],
+              [0, 43.27, 0.5],
+              [0, 43.92, 0.5],
+              [0, 45.88, 0.5],
+              [0, 46.53, 0.5]
+            ],
+            "isComplete": true
+          },
+          "c80523b8-a2be-4b16-3d47-560e8578bfe7": {
+            "id": "c80523b8-a2be-4b16-3d47-560e8578bfe7",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 41,
+            "point": [303.51, 248.4],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "1ffa0894-b678-4e54-2668-e7eb1c075e20": {
+            "id": "1ffa0894-b678-4e54-2668-e7eb1c075e20",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 44,
+            "point": [810.24, 318.11],
+            "rotation": 0,
+            "bend": -0.00004694774807899339,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 2.79],
+                "canBind": true,
+                "bindingId": "2ad886ac-a95b-41f9-2600-1a963a5a6548"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [212.95, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [106.48, 1.4]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "9fd79a61-fad5-4b1a-0e04-afbd95a25b37": {
+            "id": "9fd79a61-fad5-4b1a-0e04-afbd95a25b37",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 45,
+            "point": [1025.87, 299.76],
+            "rotation": 0,
+            "text": "Article tile components",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2d8ec5e1-6ebb-4f3b-1b60-f55a647fd8e6": {
+            "id": "2d8ec5e1-6ebb-4f3b-1b60-f55a647fd8e6",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 46,
+            "point": [1502.86, 267.52],
+            "size": [350.06, 77.25],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "8c74d42a-c5e2-4098-0895-4a3b91dfdcfb": {
+            "id": "8c74d42a-c5e2-4098-0895-4a3b91dfdcfb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 47,
+            "point": [1538.64, 275.78],
+            "rotation": 0,
+            "text": "<>Article Title<>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f2a5c34b-fbf0-4c99-3ea6-898686de6c9f": {
+            "id": "f2a5c34b-fbf0-4c99-3ea6-898686de6c9f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 48,
+            "point": [1705.49, 282.18],
+            "rotation": 0,
+            "text": "<>By {username} <>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6385513743069476,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "793a239b-0e09-465f-1ea0-2573ea333683": {
+            "id": "793a239b-0e09-465f-1ea0-2573ea333683",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 49,
+            "point": [1515.47, 285.26],
+            "rotation": 0,
+            "text": "O ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "74989ff9-e2f3-4899-2a0f-7f5d90314b9f": {
+            "id": "74989ff9-e2f3-4899-2a0f-7f5d90314b9f",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 50,
+            "point": [1528.17, 321.23],
+            "rotation": 0,
+            "bend": 0.00071956432142947,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 0],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [0.49, 13.88],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [0.25, 6.94]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "2b5dfea2-caf6-4473-17b1-669865fb2bf3": {
+            "id": "2b5dfea2-caf6-4473-17b1-669865fb2bf3",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 51,
+            "point": [1528, 277.64],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0.82, 12.9],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [0, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [0.41, 6.45]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "a2d06d05-da1c-4c75-2cd3-3b27ad486763": {
+            "id": "a2d06d05-da1c-4c75-2cd3-3b27ad486763",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 52,
+            "point": [1541.31, 304.77],
+            "rotation": 0,
+            "text": "<> Date article was created <>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.4864864864864872,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "14813a9c-f7d3-497b-246c-c68faaeb17ac": {
+            "id": "14813a9c-f7d3-497b-246c-c68faaeb17ac",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 53,
+            "point": [1547.86, 319.52],
+            "rotation": 0,
+            "text": "<> Number of comments <>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.4864864864864872,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ddbad074-9feb-44b7-1523-25edb582de80": {
+            "id": "ddbad074-9feb-44b7-1523-25edb582de80",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 54,
+            "point": [1442.61, 142.95],
+            "rotation": 0,
+            "bend": -0.000029305420057175195,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [76.63, 142.31],
+                "canBind": true,
+                "bindingId": "17a9dce9-2de0-4115-3d6a-9b4dbe3d6c66"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [0, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [38.32, 71.16]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "8806e6d8-5f9e-400f-281a-c5d7774bb0cd": {
+            "id": "8806e6d8-5f9e-400f-281a-c5d7774bb0cd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 55,
+            "point": [1134.77, 98.48],
+            "rotation": 0,
+            "text": "Vote count with up and down buttons to increment or decrement score by 1",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7f204d4c-97dd-4d29-1365-913d345e9575": {
+            "id": "7f204d4c-97dd-4d29-1365-913d345e9575",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 11,
+            "point": [280.54, 234.2],
+            "size": [547.66, 468.96],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": " ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b219959b-e0a0-4c4a-05a9-6112641dd681": {
+            "id": "b219959b-e0a0-4c4a-05a9-6112641dd681",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 56,
+            "point": [307.85, 304.03],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "fb847533-91d7-4183-1b25-9ee11771ad7a": {
+            "id": "fb847533-91d7-4183-1b25-9ee11771ad7a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 57,
+            "point": [309.81, 358.89],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "2b064d7c-16d5-404c-330b-1507c44dcd68": {
+            "id": "2b064d7c-16d5-404c-330b-1507c44dcd68",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 58,
+            "point": [310.46, 413.74],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b495a46e-d3e2-47e1-3ad6-0a161b792c9f": {
+            "id": "b495a46e-d3e2-47e1-3ad6-0a161b792c9f",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 59,
+            "point": [309.81, 465.99],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "cd366563-8926-44f6-3649-5f00436490f3": {
+            "id": "cd366563-8926-44f6-3649-5f00436490f3",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 60,
+            "point": [313.08, 516.27],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "c8533769-69c0-4a04-26d6-b41aa6316bd1": {
+            "id": "c8533769-69c0-4a04-26d6-b41aa6316bd1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 61,
+            "point": [312.42, 572.44],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "cba225d3-796e-4feb-0f69-3d4d598ea27b": {
+            "id": "cba225d3-796e-4feb-0f69-3d4d598ea27b",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 62,
+            "point": [311.12, 627.95],
+            "size": [502.39, 40.34],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Article tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b8479eeb-8b08-4fd9-0643-ae7b6909fe0c": {
+            "id": "b8479eeb-8b08-4fd9-0643-ae7b6909fe0c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 63,
+            "point": [1706.37, 301.91],
+            "rotation": 0,
+            "text": "Read Article",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "30638ee5-a275-4830-3a1d-29b5722902a8": {
+            "id": "30638ee5-a275-4830-3a1d-29b5722902a8",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 64,
+            "point": [1707.6, 307.68],
+            "size": [127.53, 28.59],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "c0b15dcd-d43f-4df4-0c19-88e9f4ede313": {
+            "id": "c0b15dcd-d43f-4df4-0c19-88e9f4ede313",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 65,
+            "point": [1835.13, 322.83],
+            "rotation": 0,
+            "bend": -0.00004993706182646643,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 0],
+                "canBind": true,
+                "bindingId": "68a5dcdd-0dd4-4310-1d27-30db07ffc628"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [197.53, 2.65],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [98.77, 1.33]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b8542be4-32a4-4649-2334-bbac2768e35c": {
+            "id": "b8542be4-32a4-4649-2334-bbac2768e35c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 66,
+            "point": [2037.37, 309.09],
+            "rotation": 0,
+            "text": "link to article/:article_id route",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "bfcb41a1-f35b-435e-0b66-9455c0b504cb": {
+            "id": "bfcb41a1-f35b-435e-0b66-9455c0b504cb",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 67,
+            "point": [826.99, 1187.71],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 41.1],
+                "canBind": true,
+                "bindingId": "995e102c-7d94-4a39-1759-e2b21291f894"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [180.2, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [90.1, 20.55]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b9cbc7ba-9af9-4bc7-2865-6d5d252ddd27": {
+            "id": "b9cbc7ba-9af9-4bc7-2865-6d5d252ddd27",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 68,
+            "point": [828.2, 538.93],
+            "rotation": 0,
+            "bend": 0.00001550151854653418,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 0],
+                "canBind": true,
+                "bindingId": "225560af-efcd-4265-3f1c-ab458442e677"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [211.96, 73.76],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [105.98, 36.88]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b4d259dc-079a-411e-3d23-7e1faa98db36": {
+            "id": "b4d259dc-079a-411e-3d23-7e1faa98db36",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 69,
+            "point": [1042.91, 591.73],
+            "rotation": 0,
+            "text": "All articles component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "515b9846-3d3b-4d90-3b3f-7e5c55c8bc62": {
+            "id": "515b9846-3d3b-4d90-3b3f-7e5c55c8bc62",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 70,
+            "point": [493.48, 1127.73],
+            "rotation": 0,
+            "text": "Article Title",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "171f8fa0-a910-4d92-1a58-7c01448ca0ad": {
+            "id": "171f8fa0-a910-4d92-1a58-7c01448ca0ad",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 71,
+            "point": [303.89, 1158.55],
+            "rotation": 0,
+            "text": "Written by: <> author name <> Date: <> created_date <> Category: <> category name <>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5328905909157012,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "56cb9330-994a-45e7-1de3-a68daea492f2": {
+            "id": "56cb9330-994a-45e7-1de3-a68daea492f2",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 72,
+            "point": [313.62, 1193.58],
+            "size": [483.45, 231.69],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b7f792c0-6aee-49c7-139b-929849ae6d39": {
+            "id": "b7f792c0-6aee-49c7-139b-929849ae6d39",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 73,
+            "point": [480.66, 1257.84],
+            "rotation": 0,
+            "text": "Body of article",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "3b6aa13f-f55a-443c-1778-41c05e4187f7": {
+            "id": "3b6aa13f-f55a-443c-1778-41c05e4187f7",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 74,
+            "point": [296.32, 1130.26],
+            "size": [516.75, 307.41],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "1e88ad24-d1fa-4a4e-046d-68b5277fffb2": {
+            "id": "1e88ad24-d1fa-4a4e-046d-68b5277fffb2",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 75,
+            "point": [813.07, 1340.84],
+            "rotation": 0,
+            "bend": -0.000041420588042552416,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 0],
+                "canBind": true,
+                "bindingId": "39b1e2c1-8d22-484a-3a06-088d8d294660"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [180.23, 39.68],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [90.12, 19.84]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b801a271-84a6-4975-2bbb-1b98882c8e3f": {
+            "id": "b801a271-84a6-4975-2bbb-1b98882c8e3f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 76,
+            "point": [1015.32, 1165.11],
+            "rotation": 0,
+            "text": "full article component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ab281291-39e4-4f16-1537-2b580d2528d2": {
+            "id": "ab281291-39e4-4f16-1537-2b580d2528d2",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 77,
+            "point": [307.25, 1450.07],
+            "size": [503.69, 188.1],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "03dec7ec-0e63-4450-275e-15f2c766cf74": {
+            "id": "03dec7ec-0e63-4450-275e-15f2c766cf74",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 78,
+            "point": [318.72, 1463.05],
+            "size": [473.49, 35.93],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Comment tile",
+            "labelPoint": [0.5, 0.5]
+          },
+          "35d8a803-3b30-4b41-2cd5-29020c237cd9": {
+            "id": "35d8a803-3b30-4b41-2cd5-29020c237cd9",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 79,
+            "point": [319.44, 1505.75],
+            "size": [473.49, 35.93],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Comment tile",
+            "labelPoint": [0.5, 0.5]
+          },
+          "efee0fdf-65a1-47e6-1b75-22314fd56c4a": {
+            "id": "efee0fdf-65a1-47e6-1b75-22314fd56c4a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 80,
+            "point": [323.37, 1548.19],
+            "size": [473.49, 35.93],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Comment tile",
+            "labelPoint": [0.5, 0.5]
+          },
+          "ab8a9a08-3180-4522-0bd0-1284b6d291f1": {
+            "id": "ab8a9a08-3180-4522-0bd0-1284b6d291f1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 81,
+            "point": [324.01, 1592.6],
+            "size": [473.49, 35.93],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Post Comment tile",
+            "labelPoint": [0.5, 0.5]
+          },
+          "443f26bc-5a55-4c28-399d-423457c445d0": {
+            "id": "443f26bc-5a55-4c28-399d-423457c445d0",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 82,
+            "point": [-567.4, 482.73],
+            "size": [745.49, 151.2],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "List of routes:\n/ - home pahe showing all articles\n/article/:article_id - page showing article in more detail with comments\n/article/search - filtered list of articles\n/users - page showing all users, with ability to click on a user to log in as that user",
+            "labelPoint": [0.5, 0.5]
+          },
+          "b57b0d68-874e-4d18-06a4-b716d2ea628e": {
+            "id": "b57b0d68-874e-4d18-06a4-b716d2ea628e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 83,
+            "point": [-762.83, 659.09],
+            "size": [935.69, 267.78],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "List of components:\nHeader\nNav Bar\n All articles: single article tiles within\nFull single article component containing: full article tile, tile for each comment, post comment tile ",
+            "labelPoint": [0.5, 0.5]
+          },
+          "dc2c161a-73ba-4d4d-3f46-fd83d5e6e6d7": {
+            "id": "dc2c161a-73ba-4d4d-3f46-fd83d5e6e6d7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 84,
+            "point": [1005.77, 1362.97],
+            "rotation": 0,
+            "text": "Tile with information of article",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7c3604c4-6158-4037-0bc0-b739c1153715": {
+            "id": "7c3604c4-6158-4037-0bc0-b739c1153715",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 85,
+            "point": [810.52, 1451.23],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 41.1],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [180.2, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [90.1, 20.55]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "deacbf0c-d69b-4278-3022-d456a38c5c64": {
+            "id": "deacbf0c-d69b-4278-3022-d456a38c5c64",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 86,
+            "point": [995.3499999999999, 1433.18],
+            "rotation": 0,
+            "text": "Comments component",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "24de6853-5287-4429-1b05-a9a7e4647a82": {
+            "id": "24de6853-5287-4429-1b05-a9a7e4647a82",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 87,
+            "point": [1034.5700000000002, 1499.14],
+            "rotation": 0,
+            "text": "Comment tiles",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "33d51b86-ee83-46f4-2d1a-fa3c2f4e5cdd": {
+            "id": "33d51b86-ee83-46f4-2d1a-fa3c2f4e5cdd",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 88,
+            "point": [794.85, 1519.68],
+            "rotation": 0,
+            "bend": -0.000041321934593220895,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 4.65],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [231.72, 0],
+                "canBind": true,
+                "bindingId": "1a5eabac-6b04-444f-16a2-49f72ce0acb0"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [115.86, 2.33]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "bb0f1f88-36aa-42ac-3f8c-eeba49b04522": {
+            "id": "bb0f1f88-36aa-42ac-3f8c-eeba49b04522",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 89,
+            "point": [798.48, 1609.86],
+            "rotation": 0,
+            "bend": -0.000041321934593220895,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 4.65],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [231.72, 0],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [115.86, 2.33]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "ce954f42-26d3-4d74-3a91-5d6b0d745a93": {
+            "id": "ce954f42-26d3-4d74-3a91-5d6b0d745a93",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 90,
+            "point": [1029.67, 1594],
+            "rotation": 0,
+            "text": "Post comment tile",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a0aea281-c19d-4321-1a41-6bf75893783f": {
+            "id": "a0aea281-c19d-4321-1a41-6bf75893783f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 93,
+            "point": [1882.85, 1464.92],
+            "rotation": 0,
+            "text": "<>{username} <>",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6385513743069476,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "52d0acbe-c570-4c6a-2c2a-3dc22f38bd2c": {
+            "id": "52d0acbe-c570-4c6a-2c2a-3dc22f38bd2c",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 105,
+            "point": [1176.98, 1494.81],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 20.74],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [669.1, 0],
+                "canBind": true,
+                "bindingId": "0187462e-d7cf-4f60-220e-a4001d1ac041"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [334.55, 10.37]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "1f311115-4024-40f9-0cfc-19af0be3e1c2": {
+            "id": "1f311115-4024-40f9-0cfc-19af0be3e1c2",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 106,
+            "point": [1248.79, 312.8],
+            "rotation": 0,
+            "bend": 0.00003883994203607277,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 8.29],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [238.07, 0],
+                "canBind": true,
+                "bindingId": "eae93172-26e1-479c-18ed-6be841374792"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [119.04, 4.14]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "7a9802a7-fb77-4c41-13ae-548312834300": {
+            "id": "7a9802a7-fb77-4c41-13ae-548312834300",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 103,
+            "point": [2203, 1520.08],
+            "rotation": 0,
+            "bend": -0.00004993706182646643,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [0, 0],
+                "canBind": true,
+                "bindingId": "4977d1c1-dd27-413c-179d-16f65e8c5be7"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [188.88, 2.34],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [94.44, 1.17]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "628959bb-d9ec-4ef2-2ec5-d21673101f3a": {
+            "id": "628959bb-d9ec-4ef2-2ec5-d21673101f3a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 91,
+            "point": [1862.08, 1464.46],
+            "size": [350.06, 77.25],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [0.5, 0.5]
+          },
+          "5cd247ab-b678-4339-22f5-99cfb9c9d7e4": {
+            "id": "5cd247ab-b678-4339-22f5-99cfb9c9d7e4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 107,
+            "point": [2397.47, 1505.03],
+            "rotation": 0,
+            "text": "Button to delete comment - only available if you are logged in as the user whose comment it belong to",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f706d1b4-a14c-47b5-1fa8-8eb63a3baf61": {
+            "id": "f706d1b4-a14c-47b5-1fa8-8eb63a3baf61",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 102,
+            "point": [2120.2, 1504.78],
+            "size": [82.8, 29.57],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Delete",
+            "labelPoint": [0.5, 0.5]
+          }
+        },
+        "bindings": {
+          "17a9dce9-2de0-4115-3d6a-9b4dbe3d6c66": {
+            "id": "17a9dce9-2de0-4115-3d6a-9b4dbe3d6c66",
+            "type": "arrow",
+            "fromId": "ddbad074-9feb-44b7-1523-25edb582de80",
+            "toId": "793a239b-0e09-465f-1ea0-2573ea333683",
+            "handleId": "start",
+            "point": [0.5, 0.5],
+            "distance": 8
+          },
+          "68a5dcdd-0dd4-4310-1d27-30db07ffc628": {
+            "id": "68a5dcdd-0dd4-4310-1d27-30db07ffc628",
+            "type": "arrow",
+            "fromId": "c0b15dcd-d43f-4df4-0c19-88e9f4ede313",
+            "toId": "30638ee5-a275-4830-3a1d-29b5722902a8",
+            "handleId": "start",
+            "point": [0.5, 0.5],
+            "distance": 16
+          },
+          "2ad886ac-a95b-41f9-2600-1a963a5a6548": {
+            "id": "2ad886ac-a95b-41f9-2600-1a963a5a6548",
+            "type": "arrow",
+            "fromId": "1ffa0894-b678-4e54-2668-e7eb1c075e20",
+            "toId": "b219959b-e0a0-4c4a-05a9-6112641dd681",
+            "handleId": "start",
+            "point": [0.5, 0.5],
+            "distance": 16
+          },
+          "225560af-efcd-4265-3f1c-ab458442e677": {
+            "id": "225560af-efcd-4265-3f1c-ab458442e677",
+            "type": "arrow",
+            "fromId": "b9cbc7ba-9af9-4bc7-2865-6d5d252ddd27",
+            "toId": "7f204d4c-97dd-4d29-1365-913d345e9575",
+            "handleId": "start",
+            "point": [0.5, 0.45],
+            "distance": 16
+          },
+          "39b1e2c1-8d22-484a-3a06-088d8d294660": {
+            "id": "39b1e2c1-8d22-484a-3a06-088d8d294660",
+            "type": "arrow",
+            "fromId": "1e88ad24-d1fa-4a4e-046d-68b5277fffb2",
+            "toId": "3b6aa13f-f55a-443c-1778-41c05e4187f7",
+            "handleId": "start",
+            "point": [0.5, 0.5],
+            "distance": 16
+          },
+          "995e102c-7d94-4a39-1759-e2b21291f894": {
+            "id": "995e102c-7d94-4a39-1759-e2b21291f894",
+            "type": "arrow",
+            "fromId": "bfcb41a1-f35b-435e-0b66-9455c0b504cb",
+            "toId": "7da52a82-90ca-4b6d-12c9-0ee6edc2cbce",
+            "handleId": "start",
+            "point": [0.49, 0.33],
+            "distance": 16
+          },
+          "1a5eabac-6b04-444f-16a2-49f72ce0acb0": {
+            "id": "1a5eabac-6b04-444f-16a2-49f72ce0acb0",
+            "type": "arrow",
+            "fromId": "33d51b86-ee83-46f4-2d1a-fa3c2f4e5cdd",
+            "toId": "24de6853-5287-4429-1b05-a9a7e4647a82",
+            "handleId": "end",
+            "point": [0.5, 0.5],
+            "distance": 8
+          },
+          "eae93172-26e1-479c-18ed-6be841374792": {
+            "id": "eae93172-26e1-479c-18ed-6be841374792",
+            "type": "arrow",
+            "fromId": "1f311115-4024-40f9-0cfc-19af0be3e1c2",
+            "toId": "2d8ec5e1-6ebb-4f3b-1b60-f55a647fd8e6",
+            "handleId": "end",
+            "point": [0.5, 0.5],
+            "distance": 16
+          },
+          "0187462e-d7cf-4f60-220e-a4001d1ac041": {
+            "id": "0187462e-d7cf-4f60-220e-a4001d1ac041",
+            "type": "arrow",
+            "fromId": "52d0acbe-c570-4c6a-2c2a-3dc22f38bd2c",
+            "toId": "628959bb-d9ec-4ef2-2ec5-d21673101f3a",
+            "handleId": "end",
+            "point": [0.5, 0.37],
+            "distance": 16
+          },
+          "4977d1c1-dd27-413c-179d-16f65e8c5be7": {
+            "id": "4977d1c1-dd27-413c-179d-16f65e8c5be7",
+            "type": "arrow",
+            "fromId": "7a9802a7-fb77-4c41-13ae-548312834300",
+            "toId": "f706d1b4-a14c-47b5-1fa8-8eb63a3baf61",
+            "handleId": "start",
+            "point": [0.5, 0.5],
+            "distance": 16
+          }
+        }
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": ["d197d5f6-a25e-4586-0214-84df4d5f0078"],
+        "camera": {
+          "point": [0, 0],
+          "zoom": 1
+        },
+        "editingId": null
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
