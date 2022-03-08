@@ -1,4 +1,4 @@
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Card, Button, Container, Row, Col, Nav } from "react-bootstrap";
 import React from "react";
 import "./Box.css";
 import cookingImage from "../assets/cooking.png";
@@ -45,9 +45,12 @@ const renderCard = (card, index) => {
           <Card.Text>{card.author}</Card.Text>
           <Card.Text>{card.created_at}</Card.Text>
           <Card.Text>
-            {card.topic}, {card.votes} votes, {card.comment_count} comments
+            {card.topic}, {card.votes} votes, {card.comment_count} comments{" "}
+            {card.article_id}
           </Card.Text>
-          <Button variant="primary">Read</Button>
+          <Button variant="primary" href={`/articles/${card.article_id}`}>
+            Read
+          </Button>
         </Card.Body>
       </Card>
     );

@@ -6,9 +6,21 @@ const marketplaceAPI = axios.create({
 
 const fetchArticles = () => {
   return marketplaceAPI.get("/articles").then((res) => {
-    console.log(res.data.articles, "articles here");
     return res.data.articles;
   });
 };
 
-export { fetchArticles };
+const fetchArticlesbyTopic = (topic) => {
+  return marketplaceAPI.get(`/articles?topic=${topic}`).then((res) => {
+    return res.data.articles;
+  });
+};
+
+const fetchArticleByID = (article_id) => {
+  return marketplaceAPI.get(`/articles/${article_id}`).then((res) => {
+    console.log(res.data, "res data");
+    //   return res.data.articles;
+  });
+};
+
+export { fetchArticles, fetchArticlesbyTopic, fetchArticleByID };
