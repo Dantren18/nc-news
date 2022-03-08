@@ -16,4 +16,11 @@ const fetchArticlesbyTopic = (topic) => {
   });
 };
 
-export { fetchArticles, fetchArticlesbyTopic };
+const fetchArticleByID = (article_id) => {
+  return marketplaceAPI.get(`/articles/${article_id}`).then((res) => {
+    console.log(res.data, "res data");
+    //   return res.data.articles;
+  });
+};
+
+export { fetchArticles, fetchArticlesbyTopic, fetchArticleByID };

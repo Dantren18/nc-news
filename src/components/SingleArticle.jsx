@@ -1,23 +1,22 @@
 import { useState, useEffect } from "react";
-import { fetchArticles, fetchArticlesbyTopic } from "../api";
+import { fetchArticleByID } from "../api";
 import ArticleCard from "./ArticleCard.jsx";
+import ErrorPage from "./ErrorPage";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 export default function AllArticles() {
-  const [articles, setArticles] = useState([]);
+  const [article, setArticle] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { genre_slug } = useParams();
-
-  console.log(articles, "here");
+  const { article_id } = useParams();
 
   useEffect(() => {
-    fetchArticles()
+    fetchArticleByID(article_id)
       .then((itemData) => {
-        setArticles(Object.values(itemData));
+        setArticle(Object.values(itemData));
         setIsLoading(false);
         setError(null);
       })
@@ -34,22 +33,13 @@ export default function AllArticles() {
       );
   }, [genre_slug]);
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <ErrorPage />;
   if (error) return <p>Error</p>;
   return (
     <section>
       <Header />
       <Navigation />
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Select a Category to Filter:</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/Articles/Category/cooking">Cooking</Nav.Link>
-            <Nav.Link href="/Articles/Category/coding">Coding</Nav.Link>
-            <Nav.Link href="/Articles/Category/football">Football</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <p>{article}</p>
       {/* <nav>
         <Link to="/Articles/Category/Cooking">Cooking</Link>
         <Link to="/Articles/Category/Coding">Coding</Link>
