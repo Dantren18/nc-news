@@ -2159,11 +2159,11 @@
             "parentId": "page",
             "childIndex": 69,
             "point": [
-              1042.91,
-              591.73
+              889.91,
+              623.53
             ],
             "rotation": 0,
-            "text": "All articles component",
+            "text": "All articles component. Will do a get request to /api/articles and map through array to create tiles\nArticle category state will be set here",
             "style": {
               "color": "black",
               "size": "small",
@@ -4452,7 +4452,7 @@
               "dash": "draw",
               "scale": 1
             },
-            "label": "",
+            "label": "category selector",
             "labelPoint": [
               0.5,
               0.5

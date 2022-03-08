@@ -13,6 +13,10 @@
   }
 }
 
+.btn-center {
+  justify-content: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .article-card {
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+} */
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
