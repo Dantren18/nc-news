@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AllArticles from "./components/AllArticles";
 import AllUsers from "./components/AllUsers";
 import ErrorPage from "./components/ErrorPage";
+import SingleArticle from "./components/SingleArticle";
 // import { UserContext } from "../src/UserContext";
 import { useState } from "react";
 
@@ -18,6 +19,7 @@ function App() {
             path="/Articles/Category/:genre_slug"
             element={<AllArticles />}
           />
+          <Route path="/Articles/:article_id" element={<SingleArticle />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>

@@ -5,7 +5,6 @@ import Header from "./Header";
 import Navigation from "./Navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import ErrorPage from "./ErrorPage";
 
 export default function AllArticles() {
   const [articles, setArticles] = useState([]);
@@ -16,46 +15,26 @@ export default function AllArticles() {
   console.log(articles, "here");
 
   useEffect(() => {
-    if (genre_slug === undefined) {
-      fetchArticles()
-        .then((itemData) => {
-          setArticles(Object.values(itemData));
+    fetchArticles()
+      .then((itemData) => {
+        setArticles(Object.values(itemData));
+        setIsLoading(false);
+        setError(null);
+      })
+      .catch(
+        ({
+          response: {
+            data: { msg },
+            status,
+          },
+        }) => {
+          setError({ msg, status });
           setIsLoading(false);
-          setError(null);
-        })
-        .catch(
-          ({
-            response: {
-              data: { msg },
-              status,
-            },
-          }) => {
-            setError({ msg, status });
-            setIsLoading(false);
-          }
-        );
-    } else {
-      fetchArticlesbyTopic(genre_slug)
-        .then((itemData) => {
-          setArticles(Object.values(itemData));
-          setIsLoading(false);
-          setError(null);
-        })
-        .catch(
-          ({
-            response: {
-              data: { msg },
-              status,
-            },
-          }) => {
-            setError({ msg, status });
-            setIsLoading(false);
-          }
-        );
-    }
+        }
+      );
   }, [genre_slug]);
 
-  if (isLoading) return <ErrorPage />;
+  if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error</p>;
   return (
     <section>
