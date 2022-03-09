@@ -1,22 +1,23 @@
 import { useState, useEffect } from "react";
 import { fetchArticleByID } from "../api";
-import ArticleCard from "./ArticleCard.jsx";
 import ErrorPage from "./ErrorPage";
 import Header from "./Header";
 import Navigation from "./Navigation";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import ArticleVote from "./ArticleVote";
+import { Card, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
-export default function AllArticles() {
+export default function SingleFullArticle() {
   const [article, setArticle] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const { article_id } = useParams();
 
   useEffect(() => {
+    setIsLoading(true);
     fetchArticleByID(article_id)
       .then((itemData) => {
-        setArticle(Object.values(itemData));
+        setArticle(itemData);
         setIsLoading(false);
         setError(null);
       })
@@ -31,21 +32,26 @@ export default function AllArticles() {
           setIsLoading(false);
         }
       );
-  }, [genre_slug]);
+  }, [article_id]);
 
-  if (isLoading) return <ErrorPage />;
-  if (error) return <p>Error</p>;
+  if (isLoading) return <p>Loading...</p>;
+  if (error) return <ErrorPage />;
   return (
     <section>
       <Header />
       <Navigation />
-      <p>{article}</p>
-      {/* <nav>
-        <Link to="/Articles/Category/Cooking">Cooking</Link>
-        <Link to="/Articles/Category/Coding">Coding</Link>
-        <Link to="/Articles/Category/Football">Football</Link>
-      </nav> */}
-      <div className="grid">{articles.map(ArticleCard)}</div>
+      <Card>
+        <Card.Header>
+          Written by: {article.author}. {article.comment_count} comments. Topic:{" "}
+          {article.topic}. Published: {article.created_at}.
+          <ArticleVote votes={article.votes} article_id={article.article_id} />
+        </Card.Header>
+        <Card.Body>
+          <Card.Title style={{ fontSize: 40 }}>{article.title}</Card.Title>
+          <Card.Text style={{ fontSize: 20 }}>{article.body}</Card.Text>
+          <Button variant="primary">View Comments</Button>
+        </Card.Body>
+      </Card>
     </section>
   );
 }

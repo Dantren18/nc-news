@@ -18,9 +18,15 @@ const fetchArticlesbyTopic = (topic) => {
 
 const fetchArticleByID = (article_id) => {
   return marketplaceAPI.get(`/articles/${article_id}`).then((res) => {
-    console.log(res.data, "res data");
-    //   return res.data.articles;
+    console.log(res.data.article, "res data");
+    return res.data.article;
   });
 };
 
-export { fetchArticles, fetchArticlesbyTopic, fetchArticleByID };
+const patchArticle = (article_id, votes) => {
+  return marketplaceAPI
+    .patch(`/articles/${article_id}`, { inc_votes: votes })
+    .catch((err) => console.log(err));
+};
+
+export { fetchArticles, fetchArticlesbyTopic, fetchArticleByID, patchArticle };

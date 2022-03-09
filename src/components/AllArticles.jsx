@@ -13,8 +13,6 @@ export default function AllArticles() {
   const [error, setError] = useState(null);
   const { genre_slug } = useParams();
 
-  console.log(articles, "here");
-
   useEffect(() => {
     if (genre_slug === undefined) {
       fetchArticles()
@@ -55,8 +53,14 @@ export default function AllArticles() {
     }
   }, [genre_slug]);
 
-  if (isLoading) return <ErrorPage />;
-  if (error) return <p>Error</p>;
+  if (isLoading)
+    return (
+      <p>
+        Please wait, the servers are very tired and loading as fast as they can
+        for you..!
+      </p>
+    );
+  if (error) return <ErrorPage />;
   return (
     <section>
       <Header />

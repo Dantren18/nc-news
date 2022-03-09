@@ -17,14 +17,16 @@ const renderCard = (card, index) => {
           <Card.Text>
             {card.topic}, {card.votes} votes, {card.comment_count} comments
           </Card.Text>
-          <Button variant="primary">Read</Button>
+          <Button variant="primary" href={`/Articles/${card.article_id}`}>
+            Read
+          </Button>
         </Card.Body>
       </Card>
     );
   } else if (card.topic === "football") {
     return (
-      <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card.Img variant="top" src={footballImage} />
+      <Card style={{ width: "5px" }} key={index} className="box">
+        <Card.Img variant="top" src={footballImage} width="450" height="350" />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.author}</Card.Text>
@@ -32,7 +34,9 @@ const renderCard = (card, index) => {
           <Card.Text>
             {card.topic}, {card.votes} votes, {card.comment_count} comments
           </Card.Text>
-          <Button variant="primary">Read</Button>
+          <Button variant="primary" href={`/Articles/${card.article_id}`}>
+            Read
+          </Button>
         </Card.Body>
       </Card>
     );
@@ -48,7 +52,7 @@ const renderCard = (card, index) => {
             {card.topic}, {card.votes} votes, {card.comment_count} comments{" "}
             {card.article_id}
           </Card.Text>
-          <Button variant="primary" href={`/articles/${card.article_id}`}>
+          <Button variant="primary" href={`/Articles/${card.article_id}`}>
             Read
           </Button>
         </Card.Body>
