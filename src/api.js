@@ -18,7 +18,6 @@ const fetchArticlesbyTopic = (topic) => {
 
 const fetchArticleByID = (article_id) => {
   return marketplaceAPI.get(`/articles/${article_id}`).then((res) => {
-    console.log(res.data.article, "res data");
     return res.data.article;
   });
 };
@@ -29,4 +28,16 @@ const patchArticle = (article_id, votes) => {
     .catch((err) => console.log(err));
 };
 
-export { fetchArticles, fetchArticlesbyTopic, fetchArticleByID, patchArticle };
+const getComments = (article_id) => {
+  return marketplaceAPI.get(`articles/${article_id}/comments`).then((res) => {
+    return res.data.comments;
+  });
+};
+
+export {
+  fetchArticles,
+  fetchArticlesbyTopic,
+  fetchArticleByID,
+  patchArticle,
+  getComments,
+};

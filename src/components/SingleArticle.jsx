@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import { fetchArticleByID } from "../api";
+import { fetchArticleByID, getComments } from "../api";
 import ErrorPage from "./ErrorPage";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import ArticleVote from "./ArticleVote";
+import SingleArticleComments from "./SingleArticleComments";
 import { Card, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
@@ -49,9 +50,9 @@ export default function SingleFullArticle() {
         <Card.Body>
           <Card.Title style={{ fontSize: 40 }}>{article.title}</Card.Title>
           <Card.Text style={{ fontSize: 20 }}>{article.body}</Card.Text>
-          <Button variant="primary">View Comments</Button>
         </Card.Body>
       </Card>
+      <SingleArticleComments />
     </section>
   );
 }
