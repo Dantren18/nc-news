@@ -75,11 +75,6 @@ export default function AllArticles() {
           </Nav>
         </Container>
       </Navbar>
-      {/* <nav>
-        <Link to="/Articles/Category/Cooking">Cooking</Link>
-        <Link to="/Articles/Category/Coding">Coding</Link>
-        <Link to="/Articles/Category/Football">Football</Link>
-      </nav> */}
       <div className="grid">{articles.map(ArticleCard)}</div>
     </section>
   );
