@@ -1,5 +1,4 @@
-import { Card, Button, Container, Row, Col, Nav } from "react-bootstrap";
-import { getComments } from "../api";
+import { Card } from "react-bootstrap";
 import React from "react";
 import "./Box.css";
 
