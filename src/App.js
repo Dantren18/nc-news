@@ -1,11 +1,12 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AllArticles from "./components/AllArticles";
-import AllUsers from "./components/AllUsers";
-import ErrorPage from "./components/ErrorPage";
-import SingleArticle from "./components/SingleArticle";
+import AllArticles from "./components/articleComponents/AllArticles";
+import AllUsers from "./components/userComponents/AllUsers";
+import ErrorPage from "./components/mainComponents/ErrorPage";
+import SingleArticle from "./components/articleComponents/SingleArticle";
 // import { UserContext } from "../src/UserContext";
 import { useState } from "react";
+const loggedInUser = "tickle122";
 
 function App() {
   return (

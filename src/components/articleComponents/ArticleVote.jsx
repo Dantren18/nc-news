@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { patchArticle } from "../api";
+import { patchArticle } from "../../api";
 
 import { Button, Card } from "react-bootstrap";
 

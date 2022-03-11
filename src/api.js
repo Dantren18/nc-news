@@ -28,10 +28,28 @@ const patchArticle = (article_id, votes) => {
     .catch((err) => console.log(err));
 };
 
-const getComments = (article_id) => {
+const fetchComments = (article_id) => {
   return marketplaceAPI.get(`articles/${article_id}/comments`).then((res) => {
     return res.data.comments;
   });
+};
+
+const fetchUsers = () => {
+  return marketplaceAPI.get(`/users`).then((res) => {
+    console.log(res.data.users, "users here in apie");
+    return res.data.users;
+  });
+};
+
+const postComment = (article_id, username, body) => {
+  return marketplaceAPI
+    .post(`articles/${article_id}/comments`, {
+      username: username,
+      body: body,
+    })
+    .then((res) => {
+      console.log(res.data, "data in API");
+    });
 };
 
 export {
@@ -39,5 +57,7 @@ export {
   fetchArticlesbyTopic,
   fetchArticleByID,
   patchArticle,
-  getComments,
+  fetchComments,
+  fetchUsers,
+  postComment,
 };

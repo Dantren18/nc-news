@@ -1,6 +1,6 @@
 import { Card } from "react-bootstrap";
 import React from "react";
-import "./Box.css";
+import "../Box.css";
 
 const CommentCard = (card, index) => {
   return (

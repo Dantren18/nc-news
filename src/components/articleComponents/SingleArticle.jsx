@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { fetchArticleByID, getComments } from "../api";
-import ErrorPage from "./ErrorPage";
-import Header from "./Header";
-import Navigation from "./Navigation";
+import { fetchArticleByID } from "../../api";
+import ErrorPage from "../mainComponents/ErrorPage";
+import Header from "../mainComponents/Header";
+import Navigation from "../mainComponents/Navigation";
 import ArticleVote from "./ArticleVote";
-import SingleArticleComments from "./SingleArticleComments";
-import { Card, Button } from "react-bootstrap";
+import SingleArticleComments from "../commentComponents/SingleArticleComments";
+import { Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 export default function SingleFullArticle() {

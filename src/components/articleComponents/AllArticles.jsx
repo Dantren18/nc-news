@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { fetchArticles, fetchArticlesbyTopic } from "../api";
+import { fetchArticles, fetchArticlesbyTopic } from "../../api";
 import ArticleCard from "./ArticleCard.jsx";
-import Header from "./Header";
-import Navigation from "./Navigation";
+import Header from "../mainComponents/Header";
+import Navigation from "../mainComponents/Navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import ErrorPage from "./ErrorPage";
+import ErrorPage from "../mainComponents/ErrorPage";
 
 export default function AllArticles() {
   const [articles, setArticles] = useState([]);
