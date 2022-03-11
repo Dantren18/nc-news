@@ -1,9 +1,9 @@
-import { Card, Button, Container, Row, Col, Nav } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import React from "react";
-import "./Box.css";
-import cookingImage from "../assets/cooking.png";
-import footballImage from "../assets/football.png";
-import codingImage from "../assets/coding.png";
+import "../Box.css";
+import cookingImage from "../../assets/cooking.png";
+import footballImage from "../../assets/football.png";
+import codingImage from "../../assets/coding.png";
 
 const renderCard = (card, index) => {
   if (card.topic === "cooking") {

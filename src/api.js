@@ -28,10 +28,31 @@ const patchArticle = (article_id, votes) => {
     .catch((err) => console.log(err));
 };
 
-const getComments = (article_id) => {
+const fetchComments = (article_id) => {
   return marketplaceAPI.get(`articles/${article_id}/comments`).then((res) => {
     return res.data.comments;
   });
+};
+
+const fetchUsers = () => {
+  return marketplaceAPI.get(`/users`).then((res) => {
+    return res.data.users;
+  });
+};
+
+const postComment = (article_id, username, body) => {
+  return marketplaceAPI
+    .post(`/articles/${article_id}/comments`, {
+      username: username,
+      body: body,
+    })
+    .then((res) => {});
+};
+
+const deleteComment = (comment_id) => {
+  return marketplaceAPI
+    .delete(`/comments/${comment_id}`)
+    .catch((err) => console.log(err));
 };
 
 export {
@@ -39,5 +60,8 @@ export {
   fetchArticlesbyTopic,
   fetchArticleByID,
   patchArticle,
-  getComments,
+  fetchComments,
+  fetchUsers,
+  postComment,
+  deleteComment,
 };
