@@ -13,6 +13,10 @@ export default function SubmitCommentCard() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (newComment === "") {
+      setplaceHolderText("You must type some text before submitting!");
+      return;
+    }
     postComment(article_id, loggedInUser, newComment);
     setNewComment("");
     setplaceHolderText("Your comment has been posted! Refresh to view it");

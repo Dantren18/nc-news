@@ -36,20 +36,23 @@ const fetchComments = (article_id) => {
 
 const fetchUsers = () => {
   return marketplaceAPI.get(`/users`).then((res) => {
-    console.log(res.data.users, "users here in apie");
     return res.data.users;
   });
 };
 
 const postComment = (article_id, username, body) => {
   return marketplaceAPI
-    .post(`articles/${article_id}/comments`, {
+    .post(`/articles/${article_id}/comments`, {
       username: username,
       body: body,
     })
-    .then((res) => {
-      console.log(res.data, "data in API");
-    });
+    .then((res) => {});
+};
+
+const deleteComment = (comment_id) => {
+  return marketplaceAPI
+    .delete(`/comments/${comment_id}`)
+    .catch((err) => console.log(err));
 };
 
 export {
@@ -60,4 +63,5 @@ export {
   fetchComments,
   fetchUsers,
   postComment,
+  deleteComment,
 };
