@@ -16,6 +16,20 @@ const fetchArticlesbyTopic = (topic) => {
   });
 };
 
+const fetchArticlesbyOrdered = (query_string) => {
+  return marketplaceAPI.get(`/articles?${query_string}`).then((res) => {
+    return res.data.articles;
+  });
+};
+
+const fetchArticlesbyTopicOrdered = (topic, query_string) => {
+  return marketplaceAPI
+    .get(`/articles?topic=${topic}&${query_string}`)
+    .then((res) => {
+      return res.data.articles;
+    });
+};
+
 const fetchArticleByID = (article_id) => {
   return marketplaceAPI.get(`/articles/${article_id}`).then((res) => {
     return res.data.article;
@@ -64,4 +78,6 @@ export {
   fetchUsers,
   postComment,
   deleteComment,
+  fetchArticlesbyOrdered,
+  fetchArticlesbyTopicOrdered,
 };
