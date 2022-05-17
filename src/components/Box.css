@@ -22,10 +22,12 @@
 }
 
 .grid {
+  justify-content: center;
   min-height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 75vw;
 }
 
 .grid > div {
