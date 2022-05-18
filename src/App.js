@@ -15,6 +15,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<AllArticles />} />
+          <Route path="/:query_string" element={<AllArticles />} />
           <Route path="/Users" element={<AllUsers />} />
           <Route
             path="/Articles/Category/:genre_slug/"

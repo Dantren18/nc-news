@@ -11,6 +11,7 @@ import Navigation from "../mainComponents/Navigation";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import ErrorPage from "../mainComponents/ErrorPage";
+import classes from "./ArticleComponents.module.css";
 
 export default function AllArticles() {
   const [articles, setArticles] = useState([]);
@@ -106,9 +107,9 @@ export default function AllArticles() {
     console.log(error);
   }
   return (
-    <section>
-      <Header />
+    <section> 
       <Navigation />
+      <Header />
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Select a Category to Filter:</Navbar.Brand>
@@ -145,7 +146,8 @@ export default function AllArticles() {
           </Dropdown>
         </Container>
       </Navbar>
-      <div className="grid">{articles.map(ArticleCard)}</div>
-    </section>
+      
+      <div className={classes.articlecontainer}>{articles.map(ArticleCard)}</div>
+       </section>
   );
 }

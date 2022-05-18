@@ -1,0 +1,123 @@
+.createdat {
+  float: right;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+}
+.readButton {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(64, 66, 67);
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 2.5px;
+  border-color: #1abc99;
+}
+
+.buttonDiv {
+  color: rgb(64, 66, 67);
+  text-align: center;
+}
+
+.topic {
+  color: #4d5964;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 20px;
+}
+
+.articlecard {
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #1abc99;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: #4d5964;
+  background-color: #eceff1;
+}
+
+.cardImage {
+  width: 50px;
+  height: 50px;
+  /* display: block; */
+}
+
+.cardVotes {
+  float: right;
+  margin-left: 10px;
+}
+.commentImage {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.cardComments {
+  float: right;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.articlecontainer {
+  text-align: left;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #4d5964;
+  height: auto;
+  align-items: center;
+  width: 70vw;
+}
+
+.categorySelector {
+  padding: 0px 0px;
+  background-color: bisque;
+  width: 100vw;
+}
+
+/* SINGLE ARTICLE  */
+
+.articleTitle {
+  font-size: 3rem;
+}
+
+.articleBody {
+  font-size: 1.25rem;
+}
+
+.articleDiv {
+  margin-top: 40px;
+  width: 70vw;
+  display: inline-block;
+}
+
+.articleInfo {
+}
+
+.articleComments {
+  /* float: right; */
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.articleAuthor {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.votesArticle {
+  font-size: 1.5rem;
+}
+
+.voteImage {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}

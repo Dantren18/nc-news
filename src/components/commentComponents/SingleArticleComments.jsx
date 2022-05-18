@@ -4,6 +4,7 @@ import CommentCard from "./CommentCard";
 import { useParams } from "react-router-dom";
 import ErrorPage from "../mainComponents/ErrorPage";
 import SubmitCommentCard from "./SubmitCommentCard";
+import classes from "./CommentComponents.module.css";
 
 export default function SingleArticleComments() {
   const [comments, setComments] = useState([]);
@@ -22,8 +23,8 @@ export default function SingleArticleComments() {
         ({
           response: {
             data: { msg },
-            status,
-          },
+            status
+          }
         }) => {
           setError({ msg, status });
           setIsLoading(false);
@@ -35,7 +36,8 @@ export default function SingleArticleComments() {
   if (error) return <ErrorPage />;
   return (
     <section>
-      <div className="grid">{comments.map(CommentCard)}</div>
+      <h1 className={classes.commentTitle}>Comments</h1>
+      <div className={classes.commentDiv}>{comments.map(CommentCard)}</div>
       <SubmitCommentCard />
     </section>
   );

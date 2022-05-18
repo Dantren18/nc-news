@@ -1,7 +1,9 @@
+import classes from "./MainComponents.module.css";
+
 export default function Header() {
   return (
-    <div class="header">
-      <h1>David's Cool News</h1>
+    <div className={classes.Header}> 
+      <span>David's Cool News</span>
     </div>
   );
 }

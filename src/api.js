@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const marketplaceAPI = axios.create({
-  baseURL: "https://davids-nc-news-app.herokuapp.com/api",
+  baseURL: "https://davids-nc-news-app.herokuapp.com/api"
 });
 
 const fetchArticles = () => {
@@ -42,6 +42,12 @@ const patchArticle = (article_id, votes) => {
     .catch((err) => console.log(err));
 };
 
+const patchComment = (comment_id, votes) => {
+  return marketplaceAPI
+    .patch(`/comments/${comment_id}`, { inc_votes: votes })
+    .catch((err) => console.log(err));
+};
+
 const fetchComments = (article_id) => {
   return marketplaceAPI.get(`articles/${article_id}/comments`).then((res) => {
     return res.data.comments;
@@ -58,7 +64,7 @@ const postComment = (article_id, username, body) => {
   return marketplaceAPI
     .post(`/articles/${article_id}/comments`, {
       username: username,
-      body: body,
+      body: body
     })
     .then((res) => {});
 };
@@ -80,4 +86,5 @@ export {
   deleteComment,
   fetchArticlesbyOrdered,
   fetchArticlesbyTopicOrdered,
+  patchComment
 };
