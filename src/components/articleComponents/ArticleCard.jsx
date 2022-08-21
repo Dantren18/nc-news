@@ -12,8 +12,6 @@ import classes from "./ArticleComponents.module.css";
 import { patchArticle } from "../../api";
 
 const ArticleCard = (card, index) => {
-  console.log(card, "card");
-
   let topicimage = "";
   if (card.topic === "cooking") {
     topicimage = cookingImage;

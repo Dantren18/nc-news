@@ -31,7 +31,6 @@ export default function SingleFullArticle() {
   };
 
   useEffect(() => {
-    console.log(article.votes, "article.votes");
     setArticleVotes(article.votes);
     setIsLoading(true);
     fetchArticleByID(article_id)

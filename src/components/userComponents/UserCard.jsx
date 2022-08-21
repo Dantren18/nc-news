@@ -4,7 +4,6 @@ import "../Box.css";
 const loggedInUser = "tickle122";
 
 const UserCard = (card, index) => {
-  console.log(loggedInUser, "logged user");
   return (
     <Card style={{ width: "18rem" }} key={index} className="box">
       <Card.Body>

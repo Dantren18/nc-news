@@ -27,7 +27,6 @@ const CommentCard = (card, index) => {
   // };
 
   const handleClickIncrease = () => {
-    console.log("increase click");
     cardVotes = cardVotes + 1;
     patchComment(card.comment_id, 1);
   };
@@ -38,7 +37,6 @@ const CommentCard = (card, index) => {
   };
 
   const handleDelete = (comment_id) => {
-    console.log("inside delete");
     deleteComment(comment_id);
   };
 
@@ -71,7 +69,9 @@ const CommentCard = (card, index) => {
             src={deleteImage}
             alt="topic"
             className={classes.deleteImage}
-            onClick={handleDelete(card.comment_id)}
+            onClick={() => {
+              handleDelete(card.comment_id);
+            }}
           ></img>
         </div>
       ) : null}
